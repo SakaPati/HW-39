@@ -1,0 +1,305 @@
+:root {
+  --logo-color: #009cbf;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.navbar {
+  padding: 0;
+  margin: 45px 0;
+}
+
+.navbar-logo {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100px;
+  height: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--logo-color);
+  font-size: 50px;
+  font-weight: 600;
+}
+.logo-points {
+  top: 35px;
+  right: 104px;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: orange;
+  border-radius: 10px;
+}
+
+.logo-points::after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: orange;
+  border-radius: 10px;
+  margin-left: 110px;
+}
+
+.navbar-restorant {
+  margin-left: 4px;
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.navbar-nav {
+  margin-top: 20px;
+  margin-left: 500px;
+}
+
+.nav-item:nth-child(n + 2) {
+  margin-left: 100px;
+}
+
+.nav-link {
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: orange;
+}
+
+.hero-section {
+  width: auto;
+  height: 619px;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/hero-img.jpg);
+}
+
+.hero-title {
+  width: 745px;
+  height: 150px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 138%;
+}
+
+.color {
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+}
+
+.restoran-app {
+  width: 195px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  padding-top: 80px;
+}
+
+.restoran-order {
+  width: 368px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 158%;
+  margin-left: 428px;
+}
+
+.devivery {
+  width: 236px;
+  height: 68px;
+  background: #fa4a0c;
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  font-size: 24px;
+  border-radius: 30px;
+  margin-right: 67px;
+}
+
+.menu {
+  border: 1px solid #fff;
+  border-radius: 30px;
+  padding: 16px 0px;
+  width: 236px;
+  height: 68px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.orders {
+  margin-left: 315px;
+  margin-top: 54px;
+}
+
+.title-app {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 54px;
+  width: 387px;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 82%;
+}
+
+.app-container,
+.shop-container {
+  display: flex;
+}
+
+.shop-container {
+  margin-top: 108px;
+}
+
+.reg-app__list {
+  margin-top: 183px;
+  margin-left: 283px;
+}
+
+.shop-app__list {
+  margin-top: 205px;
+  margin-right: 250px;
+}
+
+.reg-app__item,
+.shop-app__item:nth-child(1) {
+  width: 232px;
+  height: 36px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fa4a0c;
+}
+.reg-app__item,
+.shop-app__item:nth-child(2) {
+  width: 561px;
+  height: 134px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #252b42;
+}
+.reg-app__item,
+.shop-app__item:nth-child(3) {
+  padding: 10px 0px;
+  width: 467px;
+  height: 96px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #737373;
+}
+
+.reg-app__link,
+.shop-app__link {
+  margin-top: 70px;
+  width: 250px;
+  height: 506px;
+}
+
+.orders-section {
+  margin-top: 190px;
+  padding: 130px 0;
+  background-image: url(../images/order-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.orders-store{
+  margin-top: 49px;
+  margin-left: 440px;
+}
+
+.Playstore {
+  border-radius: 10px;
+  padding: 18px 31px;
+  width: 142px;
+  height: 64px;
+  background-color: #fa4a0c;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  margin-right: 16px;
+}
+
+.App-store {
+  border: none;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 18px 31px;
+  width: 142px;
+  height: 64px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.Order-now {
+  padding: 10px;
+  width: 255px;
+  height: 77px;
+  font-weight: 700;
+font-size: 40px;
+}
+
+.store {
+  padding: 10px;
+  width: 860px;
+  height: 58px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 500;
+font-size: 24px;
+}
+
+.website{
+  font-weight: 700;
+font-size: 12px;
+color: #5c5c5c;
+text-align: right;
+margin-left: auto;
+}
+
+.footer-div{
+  display: flex;
+  align-items: center;
+}
+
+footer{
+  padding-top: 115px;
+  padding-bottom: 50px;
+}
